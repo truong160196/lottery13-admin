@@ -1,0 +1,504 @@
+[
+    {
+        "title": "Bảng tín dụng",
+        "code": "xyp",
+        "sections": [
+            {
+                "title": "Bảng tín dụng",
+                "code": "xypg"
+            }
+        ],
+        "child": [
+            {
+                "title": "Hai mặt đĩa",
+                "code": "lmp",
+                "section": "xypg",
+                "child": [
+                    {
+                        "title": "Quả bóng đầu tiên",
+                        "code": "ball1",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_ball1_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball1_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball1_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball1_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ hai",
+                        "code": "ball2",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_ball2_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball2_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball2_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball2_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ ba",
+                        "code": "ball3",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_ball3_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball3_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball3_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball3_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ tư",
+                        "code": "ball4",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_ball4_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball4_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball4_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball4_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ năm",
+                        "code": "ball5",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_ball5_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball5_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball5_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_ball5_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Tổng",
+                        "code": "tong",
+                        "child": [
+                            {
+                                "code": "xyp_lmp_tong_big",
+                                "title": "Lớn",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_tong_small",
+                                "title": "Nhỏ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_tong_odd",
+                                "title": "Độc thân",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "xyp_lmp_tong_even",
+                                "title": "Đôi",
+                                "rate": 1.98
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Bóng đơn",
+                "code": "danqiu",
+                "section": "xypg",
+                "child": [
+                    {
+                        "title": "Quả bóng đầu tiên",
+                        "code": "ball1",
+                        "child": [
+                            {
+                                "code": "xyp_danqiu_ball1_0",
+                                "title": "0",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_1",
+                                "title": "1",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_2",
+                                "title": "2",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_3",
+                                "title": "3",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_4",
+                                "title": "4",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_5",
+                                "title": "5",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_6",
+                                "title": "6",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_7",
+                                "title": "7",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_8",
+                                "title": "8",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball1_9",
+                                "title": "9",
+                                "rate": 9.7
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ hai",
+                        "code": "ball2",
+                        "child": [
+                            {
+                                "code": "xyp_danqiu_ball2_0",
+                                "title": "0",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_1",
+                                "title": "1",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_2",
+                                "title": "2",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_3",
+                                "title": "3",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_4",
+                                "title": "4",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_5",
+                                "title": "5",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_6",
+                                "title": "6",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_7",
+                                "title": "7",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_8",
+                                "title": "8",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball2_9",
+                                "title": "9",
+                                "rate": 9.7
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ ba",
+                        "code": "ball3",
+                        "child": [
+                            {
+                                "code": "xyp_danqiu_ball3_0",
+                                "title": "0",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_1",
+                                "title": "1",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_2",
+                                "title": "2",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_3",
+                                "title": "3",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_4",
+                                "title": "4",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_5",
+                                "title": "5",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_6",
+                                "title": "6",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_7",
+                                "title": "7",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_8",
+                                "title": "8",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball3_9",
+                                "title": "9",
+                                "rate": 9.7
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ tư",
+                        "code": "ball4",
+                        "child": [
+                            {
+                                "code": "xyp_danqiu_ball4_0",
+                                "title": "0",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_1",
+                                "title": "1",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_2",
+                                "title": "2",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_3",
+                                "title": "3",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_4",
+                                "title": "4",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_5",
+                                "title": "5",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_6",
+                                "title": "6",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_7",
+                                "title": "7",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_8",
+                                "title": "8",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball4_9",
+                                "title": "9",
+                                "rate": 9.7
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Quả bóng thứ năm",
+                        "code": "ball5",
+                        "child": [
+                            {
+                                "code": "xyp_danqiu_ball5_0",
+                                "title": "0",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_1",
+                                "title": "1",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_2",
+                                "title": "2",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_3",
+                                "title": "3",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_4",
+                                "title": "4",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_5",
+                                "title": "5",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_6",
+                                "title": "6",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_7",
+                                "title": "7",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_8",
+                                "title": "8",
+                                "rate": 9.7
+                            },
+                            {
+                                "code": "xyp_danqiu_ball5_9",
+                                "title": "9",
+                                "rate": 9.7
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Rồng đầu hổ",
+        "code": "lh",
+        "sections": [
+            {
+                "title": "undefined",
+                "code": "lhwq"
+            }
+        ],
+        "child": [
+            {
+                "title": "ngàn",
+                "code": "lhg",
+                "section": "lhwq",
+                "child": [
+                    {
+                        "title": "Quả bóng đầu tiên",
+                        "code": "ball1",
+                        "child": [
+                            {
+                                "code": "lh_lhg_ball1_0",
+                                "title": "Rồng",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "lh_lhg_ball1_1",
+                                "title": "Hổ",
+                                "rate": 1.98
+                            },
+                            {
+                                "code": "lh_lhg_ball1_2",
+                                "title": "Và",
+                                "rate": 1.98
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
