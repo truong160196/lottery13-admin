@@ -102,40 +102,16 @@ const MoneyPage = observer(() => {
                       <Input placeholder="Nhập biệt danh" />
                     </Form.Item>
                     <Form.Item label="Nạp tiền" name="amount1">
-                      <InputNumber
-                        min={0}
-                        max={1000000000}
-                        placeholder="Nhập số tiền"
-                        formatter={(value) =>
-                          `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-                        }
-                        parser={(value) => value.replace(/\$\s?|(\.*)/g, "")}
-                      />
+                      <InputNumber min={0} placeholder="Nhập số tiền" />
                     </Form.Item>
                     <Form.Item label="Trừ tiền rút" name="amount3">
-                      <InputNumber
-                        min={0}
-                        max={1000000000}
-                        placeholder="Nhập số tiền"
-                        formatter={(value) =>
-                          `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-                        }
-                        parser={(value) => value.replace(/\$\s?|(\.*)/g, "")}
-                      />
+                      <InputNumber min={0} placeholder="Nhập số tiền" />
                     </Form.Item>
                     <Form.Item
                       label="Trừ tiền tài khoản - không lưu lịch sử"
                       name="amount4"
                     >
-                      <InputNumber
-                        min={0}
-                        max={1000000000}
-                        placeholder="Nhập số tiền"
-                        formatter={(value) =>
-                          `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
-                        }
-                        parser={(value) => value.replace(/\$\s?|(\.*)/g, "")}
-                      />
+                      <InputNumber min={0} placeholder="Nhập số tiền" />
                     </Form.Item>
                     <Form.Item>
                       <Button

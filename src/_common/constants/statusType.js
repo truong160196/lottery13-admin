@@ -173,6 +173,13 @@ export const Dice2Result = {
   even: [3, 7, 8, 1, 3],
 };
 
+export const Dice3Result = {
+  small: 2,
+  big: 7,
+  odd: 5,
+  even: 6,
+};
+
 export const luckyStatusText = {
   pending: "Chờ quay",
   complete: "Đã nhận thưởng",

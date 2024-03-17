@@ -26,6 +26,7 @@ import { UserApi } from "states/api";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
   Dice2Result,
+  Dice3Result,
   DiceResult,
   DiceText,
   gameLevelText,
@@ -129,14 +130,10 @@ const Game2Page = observer(() => {
   };
 
   const handleChangeBall = (type) => {
-    const optionDice = Dice2Result[type];
+    const optionDice = Dice3Result[type];
 
     const requests = {
-      number1: optionDice[0],
-      number2: optionDice[1],
-      number3: optionDice[2],
-      number4: optionDice[3],
-      number5: optionDice[4],
+      number1: optionDice,
     };
 
     form.setFieldsValue(requests);
@@ -177,7 +174,7 @@ const Game2Page = observer(() => {
             })}
           </Tabs>
           <Row>
-            <Col xs={24} sm={12} md={8}>
+            <Col xs={24} sm={12} md={6}>
               <Card className="remix-card shadow-sm full-height">
                 <div className="card-bet">
                   <h5>
@@ -230,7 +227,7 @@ const Game2Page = observer(() => {
                 </div>
               </Card>
             </Col>
-            <Col xs={24} md={16}>
+            <Col xs={24} md={12}>
               <Card className="remix-card shadow-sm full-height">
                 <p className="text-gray mb-0">
                   <b>Điều chỉnh kết quả Con số từ 0 - 9</b>
@@ -244,7 +241,17 @@ const Game2Page = observer(() => {
                     onFinish={onUpdate}
                   >
                     <Row>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
+                        <Form.Item name="number1" label="Con số 1">
+                          <InputNumber
+                            placeholder="Nhập giá trị"
+                            inputMode="numeric"
+                            min={0}
+                            max={9}
+                          />
+                        </Form.Item>
+                      </Col>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number2" label="Con số 2">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -254,7 +261,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number3" label="Con số 3">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -264,7 +271,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number4" label="Con số 4">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -274,7 +281,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number5" label="Con số 5">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -284,7 +291,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number5" label="Con số 5">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -294,7 +301,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number6" label="Con số 6">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -304,7 +311,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number7" label="Con số 7">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -314,7 +321,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number8" label="Con số 8">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -324,7 +331,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number9" label="Con số 9">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -334,7 +341,7 @@ const Game2Page = observer(() => {
                           />
                         </Form.Item>
                       </Col>
-                      <Col xs={24} sm={12} md={8}>
+                      <Col xs={24} sm={12} md={4}>
                         <Form.Item name="number10" label="Con số 10">
                           <InputNumber
                             placeholder="Nhập giá trị"
@@ -353,13 +360,7 @@ const Game2Page = observer(() => {
                         min={0}
                       />
                     </Form.Item>
-                    {/* <Form.Item name="rate2" label="Tỉ lệ cược bóng đơn">
-                      <InputNumber
-                        placeholder="Nhập giá trị"
-                        inputMode="numeric"
-                        min={0}
-                      />
-                    </Form.Item> */}
+
                     <Form.Item>
                       <Button
                         onClick={() => form.submit()}
@@ -370,6 +371,44 @@ const Game2Page = observer(() => {
                     </Form.Item>
                   </Form>
                 </Spin>
+              </Card>
+            </Col>
+            <Col xs={24} sm={12} md={6}>
+              <Card className="remix-card shadow-sm full-height">
+                <div className="list-ball-bet">
+                  {item_ball.map((item) => {
+                    return (
+                      <div
+                        className={classNames("item", {
+                          active: item?.code === currentBall,
+                        })}
+                        key={item?.code}
+                        onClick={() => setCurrentBall(item?.code)}
+                      >
+                        <div className="itemBall">
+                          <div className="number">{item?.name}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="list-ball-bet">
+                  {item_number.map((item) => {
+                    return (
+                      <div
+                        className={classNames("item", {
+                          active: item?.code === currentBall,
+                        })}
+                        key={item?.code}
+                        onClick={() => setCurrentBall(item?.code)}
+                      >
+                        <div className="itemBall">
+                          <div className="number">{item?.name}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </Card>
             </Col>
           </Row>
